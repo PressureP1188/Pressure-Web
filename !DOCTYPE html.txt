@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressure - Premium Cannabis</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #27ae60;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('cannabis-background.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #27ae60;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #2ecc71;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pressure</h1>
+        <p>Premium Cannabis for Elevated Living</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <div>
+            <h2>Feel the Pressure</h2>
+            <p>High-Quality Cannabis for Every Occasion</p>
+        </div>
+    </div>
+    <div class="content">
+        <section id="about" class="section">
+            <h3>About Us</h3>
+            <p>Welcome to Pressure, where we redefine cannabis culture. Our mission is to provide premium, carefully crafted cannabis products that elevate your lifestyle. Experience relaxation, focus, and creativity like never before.</p>
+        </section>
+        <section id="products" class="section">
+            <h3>Our Products</h3>
+            <p>Discover our range of high-quality cannabis strains, edibles, and concentrates. Whether you're new to cannabis or a seasoned connoisseur, Pressure has something perfect for you.</p>
+        </section>
+        <section id="contact" class="section">
+            <h3>Contact Us</h3>
+            <p>Have questions or want to learn more? Reach out to us at <a href="mailto:info@pressure.com">info@pressure.com</a> or visit our store in person. We’re here to help you find the perfect product for your needs.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pressure. All rights reserved.</p>
+    </footer>
+</body>
+</html>
